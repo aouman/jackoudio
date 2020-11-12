@@ -27,7 +27,7 @@
                 <a href="#" class="nav-link">Espace clients</a>
               </li>
               <li class="nav-item mr-3 ml-3">
-                <a href="#" class="nav-link">Espace pharmatiens</a>
+                <a href="#" class="nav-link">Espace pharmaciens</a>
               </li>
               <li class="nav-item mr-3 ml-3">
                 <a href="#" class="nav-link">Trouvé votre carré</a>
@@ -207,7 +207,7 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
       <section class="container-fluid"ededed>
         <div class="row bg-audio pt-4 pb-5">
           <div class="col-md-12">
-            <h2 class="text-uppercase p-5 text-white text-center">Un concept innovante</h2>
+            <h2 class="text-uppercase p-5 text-white text-center">Un concept innovant</h2>
           </div>
         </div>
         <div class="row bottom position-relative">
