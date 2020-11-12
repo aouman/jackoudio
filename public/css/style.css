@@ -1,3 +1,6 @@
+body {
+  font-family: 'Montserrat', sans-serif!important;
+}
 /* This class is added on scroll */
 .fixed {
   position: fixed!important;
@@ -43,3 +46,82 @@
     overflow: hidden;
     margin-bottom: 25px;
 }*/
+.hero {
+    background: #bee8f5;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.btn-h {
+  font-weight: bold;
+  background: #005a8d!important;
+  font-size: 24px;
+    line-height: 28px;
+    min-height: 65px;
+}
+
+.bg-audio {
+  background-color: #f287b6;
+}
+
+.pre-border {
+  border: 2px solid #aaa;
+}
+
+.h-phar {
+  height: 25em;
+}
+
+@media (min-width: 768px){
+  .hero .telephone-image {
+      width: 370px;
+      height: 600px;
+      background: url('/images/image-slide.png') no-repeat center;
+      background-position-x: center;
+  }
+  .hero .image {
+      margin-top: 0;
+  }
+  .hero .wave {
+      z-index: 0;
+}
+
+.hero .image {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+.hero .cta {
+    justify-content: center;
+    z-index: 20;
+}
+
+.hero .wave {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 20;
+}
+
+.hero .wave img {
+    width: 100%;
+    min-width: 1000px;
+    margin-bottom: -1px;
+}
+.hero .wave .spacer {
+    background: #fff;
+    height: 65px;
+}
+
+.i-fas {
+  font-size: 45px;
+    padding: 15px;
+    border-radius: 50%;
+}
