@@ -18,3 +18,28 @@
 .fixed img {
   width: 100px!important;
 }
+
+.text-title {
+  color: #f287b6;
+}
+
+.bottom {
+  bottom: 45px;
+}
+
+.w-21 {
+  width: 20%;
+}
+.h-box {
+  height: 200px;
+}
+/*.hero {
+    position: relative;
+    background: #bee8f5;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}*/
