@@ -157,4 +157,12 @@ body {
         background: #fff;
         height: 65px;
     }
+
+    .text-responsive {
+      font-size: calc(5% + 1vw + 1vh)!important;
+    }
+
+    .height-responsive {
+      height: calc(100% + 10px);
+    }
 }
