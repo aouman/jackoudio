@@ -27,7 +27,7 @@
                 <a href="/client" class="nav-link">Espace clients</a>
               </li>
               <li class="nav-item mr-3 ml-3">
-                <a href="#" class="nav-link">Espace pharmaciens</a>
+                <a href="/pharmacien" class="nav-link">Espace pharmaciens</a>
               </li>
               <!--li class="nav-item mr-3 ml-3">
                 <a href="#" class="nav-link">Trouvé votre carré</a>

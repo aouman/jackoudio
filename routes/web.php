@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/client', function () {
     return view('client');
 });
+Route::get('/pharmacien', function () {
+    return view('pharmacien');
+});
