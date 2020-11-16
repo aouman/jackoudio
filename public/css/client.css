@@ -100,6 +100,13 @@ body {
   top:5px;
 }
 
+.img-center {
+    background-image: url('http://www.carredeloptique.fr/wp-content/uploads/2018/01/Capture3.png?id=2741') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
 @media (max-width: 768px){
   .h-box {
       height: 100%;
@@ -115,7 +122,7 @@ body {
     .hero .telephone-image {
         width: 370px;
         height: 600px;
-        background: url('/images/image-slide.png') no-repeat center;
+        background: url('/images/image-slide_1.png') no-repeat center;
         background-position-x: center;
     }
 
