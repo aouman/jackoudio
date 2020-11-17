@@ -12,7 +12,7 @@
     <div class="main-content">
       <header style="background: #bee8f5;">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img class="logo-short" src="/images/logo1.png" alt="Logo" style="width: 200px;">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,19 +20,19 @@
           </button>
           <div class="collapse navbar-collapse flex-column" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item mr-3 ml-3 active">
+              <li class="nav-item mr-3 ml-3 text-responsive active">
                 <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item mr-3 ml-3">
-                <a href="/client" class="nav-link">Espace clients</a>
+              <li class="nav-item mr-3 ml-3 text-responsive">
+                <a href="/vous-etes-opticien" class="nav-link">vous êtes Opticien ?</a>
               </li>
-              <li class="nav-item mr-3 ml-3">
-                <a href="/pharmacien" class="nav-link">Espace pharmaciens</a>
+              <li class="nav-item mr-3 ml-3 text-responsive">
+                <a href="/espace-franchise" class="nav-link">Espace franchise</a>
+              </li>
+              <li class="nav-item mr-3 ml-3 text-responsive">
+                <a href="/trouver-un-centre" class="nav-link">Trouver un centre</a>
               </li>
               <!--li class="nav-item mr-3 ml-3">
-                <a href="#" class="nav-link">Trouvé votre carré</a>
-              </li>
-              <li class="nav-item mr-3 ml-3">
                 <a href="#" class="nav-link">Réjoignez nous</a>
               </li-->
             </ul>

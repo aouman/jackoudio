@@ -109,14 +109,24 @@ body {
   .w-21 {
       width: 100%;
   }
+  .position-relative .display-4 {
+    font-size: calc(100% + 1vw + 1vh)!important;
+  }
+  .hero {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media (min-width: 768px) {
     .hero .telephone-image {
-        width: 370px;
+        width: 500px;
         height: 600px;
-        background: url('/images/image-slide.png') no-repeat center;
+        background: url('/images/slidejack.png') no-repeat center;
         background-position-x: center;
+        background-size: contain;
+        position: relative;
+        bottom: 35px;
     }
 
     .hero .image {
