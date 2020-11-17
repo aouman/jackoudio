@@ -24,15 +24,15 @@
                 <a class="nav-link text-responsive" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item mr-3 ml-3">
-                <a href="/client" class="nav-link text-responsive">Espace clients</a>
+                <a href="/vous-etes-opticien" class="nav-link text-responsive">vous êtes Opticien ?</a>
               </li>
               <li class="nav-item mr-3 ml-3">
-                <a href="/pharmacien" class="nav-link text-responsive">Espace pharmaciens</a>
+                <a href="/espace-franchise" class="nav-link text-responsive">Espace franchise</a>
+              </li>
+              <li class="nav-item mr-3 ml-3 text-responsive">
+                <a href="/trouver-un-centre" class="nav-link">Trouver un centre</a>
               </li>
               <!--li class="nav-item mr-3 ml-3">
-                <a href="#" class="nav-link">Trouvé votre carré</a>
-              </li>
-              <li class="nav-item mr-3 ml-3">
                 <a href="#" class="nav-link">Réjoignez nous</a>
               </li-->
             </ul>
@@ -43,13 +43,13 @@
       <section class="hero position-relative">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 col-md-6 d-flex flex-column cta">
-              <h1 class="font-weight-bold">Alliance de l’optique <br> <span>et de l'Audioprothèse</span> </h1>
-              <div class="text-left">
-                <a href="#" class="btn h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h">En savoir plus</a>
+            <div class="col-12 col-md-7 d-flex flex-column cta">
+              <p class=" mb-md-5 font-weight-bold display-4"> <span class="font-weight-lighter">La solution pour allier </span><br>Optique et Audioprothese</p>
+              <div class="text-left mt-md-5 my-4">
+                <a href="#" class=" h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h">En savoir plus</a>
               </div>
             </div>
-            <div class="col-12 col-md-6 image">
+            <div class="col-12 col-md-5 image">
               <div class="telephone-image"></div>
             </div>
           </div>
@@ -61,8 +61,22 @@
       </section>
 
       <section class="container-fluid">
-        <h2 class="text-uppercase text-title text-center pt-md-5 pb-4 mb-5">VOUS CHERCHEZ DES LUNETTES ?</h2>
-        <div class="row">
+        <h2 class="text-uppercase text-title text-center pt-md-5 pb-4 mb-5">Comment ça marche ?</h2>
+        <div class="row p-3">
+          <div class="col-md-2"></div>
+          <div class="col-md-4">
+            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Installation de la cabine au frais de Jack Audio</p>
+            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Formation des opticiens et de l’audioprothésiste à la vente et l’accompagnement de la clientèle en Audioprothèse</p>
+            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Gestion des dossiers de prise en charge</p>
+          </div>
+          <div class="col-md-4">
+            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Gestion des stocks</p>
+            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Présence d’un audioprothésiste D.E</p>
+            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Rétrocéssion du Chiffre d’Affaire généré.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <!--div class="row">
           <div class="col-md-4">
             <div class="shadow-sm p-4 text-center mb-4 border rounded-lg boder box-hover">
               <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
@@ -87,76 +101,10 @@
               <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
             </div>
           </div>
-        </div>
-      </section>
-      <hr class="w-25 mx-auto rounded-pill pre-border">
-      <section class="container-fluid">
-        <h2 class="text-uppercase text-title text-center pt-md-5 pb-4 mb-5">ESPACE PHARMACIEN</h2>
-        <div class="row p-3">
-          <div class="col-md-3">
-            <div class="shadow-sm py-4 px-2 height-responsive text-center mb-4 border rounded-lg h-phar box-hover">
-              <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
-              <h5 class="text-uppercase text-responsive">Synergie</h5>
-              <p class="py-3 px-1 text-responsive" style="margin-bottom: 31px;">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
-              <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="shadow-sm py-4 px-2 height-responsive text-center mb-4 border rounded-lg h-phar box-hover">
-              <i class="fas fa-chart-line i-fas mb-4 bg-audio text-white"></i>
-              <h5 class="text-uppercase text-responsive">Augmentation du chiffre d'affaire</h5>
-              <p class="py-3 px-1 text-responsive">Augmentation de l’attractivité de la boutique, une fidélisation des + de 60 ans, élargissement de la gamme de services</p>
-              <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="shadow-sm py-4 px-2 height-responsive text-center mb-4 border rounded-lg h-phar box-hover">
-              <i class="fas fa-folder-plus i-fas mb-4 bg-audio text-white"></i>
-              <h5 class="text-uppercase text-responsive">Gestion de la vente d'audio prothèses</h5>
-              <p class="py-3 px-1 text-responsive">Gestion complète et autonome de l’activité de la vente d’audioprotheses (normes, materiel, stock, gestion administrative)</p>
-              <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="shadow-sm py-4 px-2 height-responsive text-center mb-4 border rounded-lg h-phar box-hover">
-              <i class="fas fa-graduation-cap i-fas mb-4 bg-audio text-white"></i>
-              <h5 class="text-uppercase text-responsive">Audioprothésiste diplômé</h5>
-              <p class="py-3 px-1 text-responsive">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
-              <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-            </div>
-          </div>
-        </div>
+        </div-->
       </section>
 
-      <hr class="w-25 mx-auto rounded-pill pre-border">
-
-      <section class="container-fluid mt-4">
-        <h2 class="text-uppercase p-5 text-title text-center pb-4 mb-5 ">JACKAUDIO PROPOSE</h2>
-        <div class="row p-3">
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-white border">Installation de la cabine au frais de Jack Audio <span></span></p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-white border">Gestion des dossier de prise en charge  <span></span></p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-white border">Stock <span></span></p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-white border">Equipement</p>
-          </div>
-          <div class="col-md-4">
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-white border">Accessoires <span></span></p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-white border">Présence d’un Audioprothésiste. <span></span></p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-white border">Rétrocession d’une partie du chiffre d’affaire généré <span></span></p>
-          </div>
-          <div class="col-md-2"></div>
-          <!--div class="col-md-4">
-            <div class="shadow p-4 text-center">
-              <p class="h5">Un espace audio aménagé et équipé</p>
-              <div class="p-3">
-                <img src="/images/logo.png" alt="" class="rounded-circl" width="100">
-              </div>
-            </div>
-          </div-->
-        </div>
-      </section>
-
+      <hr class="w-25 mx-auto rounded-pill pre-border mb-md-5 d-none">
       <section class="container-fluid">
         <div class="row bg-audio pt-4 pb-5">
           <div class="col-md-12">
@@ -164,26 +112,124 @@
           </div>
         </div>
         <div class="row position-relative bottom">
-          <div class="col-md-3"></div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
-                <img src="/images/siemens-logo-default.svg" alt="" class="" width="100">
+                <img src="/images/Marque.jpg" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
+            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+              <div class="p-3">
+                <img src="/images/Marque3.jpg" alt="" class="img-fluid" width="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+              <div class="p-3">
+                <img src="/images/Marque4.png" alt="" class="img-fluid" width="100">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+              <div class="p-2">
+                <img src="/images/Marque5.jpg" alt="" class="img-fluid" width="100">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
+              <div class="p-2">
+                <img src="/images/Marque6.jpg" alt="" class="img-fluid" width="90">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
             <div class="shadow p-4 text-center bg-white rounded-lg">
               <div class="">
                 <img src="/images/logo-starkey.svg" alt="" class="" width="90">
               </div>
             </div>
           </div>
-          <div class="col-md-3"></div>
         </div>
       </section>
 
-      <section class="container-fluid py-5">
+      <hr class="w-25 mx-auto rounded-pill pre-border">
+      <section class="container-fluid mb-md-4">
+        <h2 class="text-uppercase text-title text-center pt-md-5 pb-4 mb-5">ESPACE PHARMACIEN</h2>
+        <div class="row p-md-3">
+          <div class="col-md-12">
+            <div class="d-md-flex">
+              <div class="p-2 w-100 shadow-sm box-hover border m-1">
+                <div class="">
+                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
+                    <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
+                    <h5 class="text-uppercase text-responsive">Synergie</h5>
+                    <p class="py-3 px-1 text-responsive text-left" style="margin-bottom: 31px;">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
+                  </div>
+                  <div class="text-center d-none">
+                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 w-100 shadow-sm box-hover border m-1">
+                <div class="">
+                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
+                    <i class="fas fa-chart-line i-fas mb-4 bg-audio text-white"></i>
+                    <h5 class="text-uppercase text-responsive text-break">Augmentation <br> du chiffre d'affaire</h5>
+                    <p class="py-3 px-1 text-responsive text-left">Augmentation de l’attractivité de la boutique, une fidélisation des + de 60 ans, élargissement de la gamme de services</p>
+                  </div>
+                  <div class="text-center d-none">
+                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 w-100 shadow-sm box-hover border m-1">
+                <div class="">
+                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
+                    <i class="fas fa-folder-plus i-fas mb-4 bg-audio text-white"></i>
+                    <h5 class="text-uppercase text-responsive">Gestion de la vente d'audio prothèses</h5>
+                    <p class="py-3 px-1 text-responsive text-left">Gestion complète et autonome de l’activité de la vente d’audioprotheses (normes, materiel, stock, gestion administrative)</p>
+                  </div>
+                  <div class="text-center d-none">
+                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 w-100 shadow-sm box-hover border m-1">
+                <div class="">
+                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
+                    <i class="fas fa-graduation-cap i-fas mb-4 bg-audio text-white"></i>
+                    <h5 class="text-uppercase text-responsive">Audioprothésiste diplômé</h5>
+                    <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
+                  </div>
+                  <div class="text-center d-none">
+                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 w-100 shadow-sm box-hover border m-1">
+                <div class="">
+                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
+                    <i class="fab fa-battle-net i-fas mb-4 bg-audio text-white"></i>
+                    <h5 class="text-uppercase text-responsive">Un réseau qui vous accompagne chaque jour.</h5>
+                    <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
+                  </div>
+                  <div class="text-center d-none">
+                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--section class="container-fluid py-5">
         <h2 class="text-uppercase p-5 text-title text-center">Un avantage concurrentiel certain</h2>
         <div class="row">
           <div class="col-md-2"></div>
@@ -202,9 +248,9 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
             <div class="shadow"></div>
           </div>
         </div>
-      </section>
+      </section-->
 
-      <section class="container-fluid"ededed>
+      <!--section class="container-fluid"ededed>
         <div class="row bg-audio pt-4 pb-5">
           <div class="col-md-12">
             <h2 class="text-uppercase p-5 text-white text-center">Un concept innovant</h2>
@@ -249,7 +295,7 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
             </div>
           </div>
         </div>
-      </section>
+      </section-->
 
       <section class="container-fluid bg-light py-5 px-3">
         <h2 class="text-uppercase p-5 text-title text-center">Contactez-nous</h2>

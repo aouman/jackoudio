@@ -16,9 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/client', function () {
-    return view('client');
+Route::get('/vous-etes-opticien', function () {
+    return view('opticien');
 });
-Route::get('/pharmacien', function () {
-    return view('pharmacien');
+Route::get('/espace-franchise', function () {
+    return view('franchise');
+});
+Route::get('/trouver-un-centre', function () {
+    return view('centre');
 });
