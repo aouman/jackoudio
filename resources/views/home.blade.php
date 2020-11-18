@@ -10,17 +10,17 @@
   </head>
   <body>
     <div class="main-content">
-      <header style="background: #bee8f5;">
+      <header style="background: #f087b6;">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="/">
-            <img class="logo-short" src="/images/logo1.png" alt="Logo" style="width: 200px;">
+            <img class="logo-short" src="/images/logo.png" alt="Logo" style="width: 120px;">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse flex-column" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item mr-3 ml-3 active">
+              <li class="nav-item mr-3 ml-3">
                 <a class="nav-link text-responsive" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item mr-3 ml-3">
@@ -43,10 +43,10 @@
       <section class="hero position-relative">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 col-md-7 d-flex flex-column cta">
+            <div class="col-12 col-md-7 d-flex flex-column cta px-md-3 px-0 py-5">
               <p class=" mb-md-5 font-weight-bold display-4"> <span class="font-weight-lighter">La solution pour allier </span><br>Optique et Audioprothese</p>
               <div class="text-left mt-md-5 my-4">
-                <a href="#" class=" h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h">En savoir plus</a>
+                <a href="#" class="text-decoration-none box-hover h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h btn-shadow">En savoir plus</a>
               </div>
             </div>
             <div class="col-12 col-md-5 image">
@@ -106,7 +106,7 @@
 
       <hr class="w-25 mx-auto rounded-pill pre-border mb-md-5 d-none">
       <section class="container-fluid">
-        <div class="row bg-audio pt-4 pb-5">
+        <div class="row bg-hero pt-4 pb-5">
           <div class="col-md-12">
             <h2 class="text-uppercase p-5 text-white text-center">Jack Audio partenariat avec les meilleurs marques</h2>
           </div>
@@ -333,7 +333,7 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
       <section class="container-fluid">
         <footer class="row bg-dark">
           <div class="col-md-12">
-            <p class="p-4 text-white">© Copyright 2020 Jackaudio – Politique de confidentialité – Une création de Locelot</p>
+            <p class="p-4 text-white">© Copyright <span id="year">2019</span> Jackaudio – Politique de confidentialité</p>
           </div>
         </footer>
       </section>
@@ -343,15 +343,30 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script>
-      $(document).ready(function() {
-        $(window).bind('scroll', function() {
-          var navHeight = $(window).height() - 90;
-          if ($(window).scrollTop() > navHeight) {
-            $('nav').addClass('fixed');
-          } else {
-            $('nav').removeClass('fixed');
-          }
-        });
+    /*COPYRIGTH SCRIPT*/
+    var date = new Date();
+    var annee = date.getFullYear();
+    document.getElementById('year').innerHTML = annee;
+    </script>
+    <script>
+    $(document).ready(function() {
+      $(window).bind('scroll', function() {
+        var navHeight = $(window).height() - 90;
+        if ($(window).scrollTop() > navHeight) {
+          $('nav').addClass('fixed');
+        } else {
+          $('nav').removeClass('fixed');
+        }
+      });
+    });
+    </script>
+
+    <script>
+      /*lorsqu'on clique sur l'un des bouton du menu elle s'active*/
+      $('.navbar-nav .navs a').on('click', function (e) {
+          e.preventDefault();
+          var me = $(this).parent().toggleClass('active')
+          $(".active").not(me).removeClass('active')
       });
     </script>
   </body>

@@ -10,17 +10,17 @@
   </head>
   <body>
     <div class="main-content">
-      <header style="background: #bee8f5;">
+      <header class="bg-hero">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="/">
-            <img class="logo-short" src="/images/logo1.png" alt="Logo" style="width: 200px;">
+            <img class="logo-short" src="/images/logo.png" alt="Logo" style="width: 120px;">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse flex-column" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item mr-3 ml-3 text-responsive active">
+              <li class="nav-item mr-3 ml-3 text-responsive">
                 <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item mr-3 ml-3 text-responsive">
@@ -45,8 +45,8 @@
           <div class="row">
             <div class="col-12 col-md-6 d-flex flex-column cta">
               <h1 class="font-weight-bold">“Pour ma vue aussi, je demande conseil à mon Pharmacien”</h1>
-              <div class="text-left">
-                <a href="#" class="btn h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h">En savoir plus</a>
+              <div class="text-left mt-md-5 my-4">
+                <a href="#" class="text-decoration-none box-hover h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h btn-shadow">En savoir plus</a>
               </div>
             </div>
             <div class="col-12 col-md-6 image">
@@ -80,7 +80,6 @@
               <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
               <h5 class="text-uppercase">Préservez vos yeux des UV</h5>
               <p class="py-3">Protégez vos yeux des UV. Notre opticien vous conseille sur le choix de vos lunettes de soleil selon les normes européennes en vigueur.</p>
-              <h5 class="text-uppercase">Evitez la dégénérescence maculaire</h5>
               <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
             </div>
           </div>
@@ -103,7 +102,6 @@
               <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
               <h5 class="text-uppercase">Préservez vos yeux des UV</h5>
               <p class="py-3">Protégez vos yeux des UV. Notre opticien vous conseille sur le choix de vos lunettes de soleil selon les normes européennes en vigueur.</p>
-              <h5 class="text-uppercase">Evitez la dégénérescence maculaire</h5>
               <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
             </div>
           </div>
@@ -115,28 +113,55 @@
       </section>
 
       <section class="container-fluid">
-        <div class="row bg-audio pt-4 pb-5">
+        <div class="row bg-hero pt-4 pb-5">
           <div class="col-md-12">
             <h2 class="text-uppercase p-5 text-white text-center">Jack Audio partenariat avec les meilleurs marques</h2>
           </div>
         </div>
         <div class="row position-relative bottom">
-          <div class="col-md-3"></div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
-                <img src="/images/siemens-logo-default.svg" alt="" class="" width="100">
+                <img src="/images/Marque.jpg" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
+            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+              <div class="p-3">
+                <img src="/images/Marque3.jpg" alt="" class="img-fluid" width="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+              <div class="p-3">
+                <img src="/images/Marque4.png" alt="" class="img-fluid" width="100">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+              <div class="p-2">
+                <img src="/images/Marque5.jpg" alt="" class="img-fluid" width="100">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
+              <div class="p-2">
+                <img src="/images/Marque6.jpg" alt="" class="img-fluid" width="90">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
             <div class="shadow p-4 text-center bg-white rounded-lg">
               <div class="">
                 <img src="/images/logo-starkey.svg" alt="" class="" width="90">
               </div>
             </div>
           </div>
-          <div class="col-md-3"></div>
         </div>
       </section>
 
@@ -160,7 +185,6 @@
               <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
               <h5 class="text-uppercase">Préservez vos yeux des UV</h5>
               <p class="py-3">Protégez vos yeux des UV. Notre opticien vous conseille sur le choix de vos lunettes de soleil selon les normes européennes en vigueur.</p>
-              <h5 class="text-uppercase">Evitez la dégénérescence maculaire</h5>
               <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
             </div>
           </div>
@@ -203,7 +227,7 @@
       <section class="container-fluid">
         <footer class="row bg-dark">
           <div class="col-md-12">
-            <p class="p-4 text-white">© Copyright 2020 Jackaudio – Politique de confidentialité – Une création de Locelot</p>
+            <p class="p-4 text-white">© Copyright <span id="year">2019</span> Jackaudio – Politique de confidentialité</p>
           </div>
         </footer>
       </section>
@@ -213,15 +237,30 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script>
-      $(document).ready(function() {
-        $(window).bind('scroll', function() {
-          var navHeight = $(window).height() - 90;
-          if ($(window).scrollTop() > navHeight) {
-            $('nav').addClass('fixed');
-          } else {
-            $('nav').removeClass('fixed');
-          }
-        });
+    /*COPYRIGTH SCRIPT*/
+    var date = new Date();
+    var annee = date.getFullYear();
+    document.getElementById('year').innerHTML = annee;
+    </script>
+    <script>
+    $(document).ready(function() {
+      $(window).bind('scroll', function() {
+        var navHeight = $(window).height() - 90;
+        if ($(window).scrollTop() > navHeight) {
+          $('nav').addClass('fixed');
+        } else {
+          $('nav').removeClass('fixed');
+        }
+      });
+    });
+    </script>
+
+    <script>
+      /*lorsqu'on clique sur l'un des bouton du menu elle s'active*/
+      $('.navbar-nav .navs a').on('click', function (e) {
+          e.preventDefault();
+          var me = $(this).parent().toggleClass('active')
+          $(".active").not(me).removeClass('active')
       });
     </script>
   </body>
