@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+Route::get('/vous-etes-opticien', function () {
+    return view('opticien');
+});
+Route::get('/espace-franchise', function () {
+    return view('franchise');
+});
+Route::get('/trouver-un-centre', function () {
+    return view('centre');
 });
