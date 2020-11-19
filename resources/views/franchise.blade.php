@@ -13,7 +13,7 @@
       <header class="bg-hero">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="/">
-            <img class="logo-short" src="/images/logo.png" alt="Logo" style="width: 120px;">
+            <img class="logo-short" src="/images/logo_1.png" alt="Logo" style="width: 120px;">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                 <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item mr-3 ml-3 text-responsive">
-                <a href="/vous-etes-opticien" class="nav-link">vous êtes Opticien ?</a>
+                <a href="/vous-etes-opticien" class="nav-link">Vous êtes opticien ?</a>
               </li>
               <li class="nav-item mr-3 ml-3 text-responsive">
                 <a href="/espace-franchise" class="nav-link">Espace franchise</a>
@@ -120,14 +120,14 @@
         </div>
         <div class="row position-relative bottom">
           <div class="col-md-2">
-            <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-4 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
                 <img src="/images/Marque.jpg" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-3 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
                 <img src="/images/Marque3.jpg" alt="" class="img-fluid" width="100">
               </div>
@@ -135,28 +135,28 @@
           </div>
 
           <div class="col-md-2">
-            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-3 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
                 <img src="/images/Marque4.png" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-3 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-2">
                 <img src="/images/Marque5.jpg" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-4 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-2">
                 <img src="/images/Marque6.jpg" alt="" class="img-fluid" width="90">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-4 text-center bg-white rounded-lg">
+            <div class="shadow p-4 box-hover text-center bg-white rounded-lg">
               <div class="">
                 <img src="/images/logo-starkey.svg" alt="" class="" width="90">
               </div>
