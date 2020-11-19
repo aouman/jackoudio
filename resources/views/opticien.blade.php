@@ -24,7 +24,7 @@
                 <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item mr-3 ml-3 text-responsive">
-                <a href="/vous-etes-opticien" class="nav-link">vous êtes Opticien ?</a>
+                <a href="/vous-etes-opticien" class="nav-link">Vous êtes opticien ?</a>
               </li>
               <li class="nav-item mr-3 ml-3 text-responsive">
                 <a href="/espace-franchise" class="nav-link">Espace franchise</a>

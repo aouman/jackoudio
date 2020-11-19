@@ -24,7 +24,7 @@
                 <a class="nav-link text-responsive" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item mr-3 ml-3">
-                <a href="/vous-etes-opticien" class="nav-link text-responsive">vous êtes Opticien ?</a>
+                <a href="/vous-etes-opticien" class="nav-link text-responsive">Vous êtes opticien ?</a>
               </li>
               <li class="nav-item mr-3 ml-3">
                 <a href="/espace-franchise" class="nav-link text-responsive">Espace franchise</a>
@@ -65,14 +65,14 @@
         <div class="row p-3">
           <div class="col-md-2"></div>
           <div class="col-md-4">
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Installation de la cabine au frais de Jack Audio</p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Formation des opticiens et de l’audioprothésiste à la vente et l’accompagnement de la clientèle en Audioprothèse</p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Gestion des dossiers de prise en charge</p>
+            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Installation de la cabine au frais de Jack Audio</p>
+            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Formation des opticiens et de l’audioprothésiste à la vente et l’accompagnement de la clientèle en Audioprothèse</p>
+            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Gestion des dossiers de prise en charge</p>
           </div>
           <div class="col-md-4">
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Gestion des stocks</p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Présence d’un audioprothésiste D.E</p>
-            <p class="h6 shadow-sm p-4 rounded-lg mb-4 bg-audio border text-white">Rétrocéssion du Chiffre d’Affaire généré.</p>
+            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Gestion des stocks</p>
+            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Présence d’un audioprothésiste D.E</p>
+            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Rétrocéssion du Chiffre d’Affaire généré.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -113,14 +113,14 @@
         </div>
         <div class="row position-relative bottom">
           <div class="col-md-2">
-            <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-4 box-hover h6 shadow-sm p-4 text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
                 <img src="/images/Marque.jpg" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-3 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
                 <img src="/images/Marque3.jpg" alt="" class="img-fluid" width="100">
               </div>
@@ -128,28 +128,28 @@
           </div>
 
           <div class="col-md-2">
-            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-3 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-3">
                 <img src="/images/Marque4.png" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-3 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-3 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-2">
                 <img src="/images/Marque5.jpg" alt="" class="img-fluid" width="100">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-4 text-center bg-white mb-3 rounded-lg">
+            <div class="shadow p-4 box-hover text-center bg-white mb-3 rounded-lg">
               <div class="p-2">
                 <img src="/images/Marque6.jpg" alt="" class="img-fluid" width="90">
               </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="shadow p-4 text-center bg-white rounded-lg">
+            <div class="shadow p-4 box-hover text-center bg-white rounded-lg">
               <div class="">
                 <img src="/images/logo-starkey.svg" alt="" class="" width="90">
               </div>
