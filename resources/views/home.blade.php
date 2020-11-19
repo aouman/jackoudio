@@ -13,7 +13,7 @@
       <header style="background: #f087b6;">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="/">
-            <img class="logo-short" src="/images/logo.png" alt="Logo" style="width: 120px;">
+            <img class="logo-short" src="/images/logo_1.png" alt="Logo" style="width: 120px;">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
