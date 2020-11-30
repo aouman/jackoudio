@@ -4,69 +4,71 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   </head>
   <body>
     <div class="main-content">
-      <header style="background: #f087b6;">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="/">
-            <img class="logo-short" src="/images/logo_1.png" alt="Logo" style="width: 120px;">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse flex-column" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item mr-3 ml-3">
-                <a class="nav-link text-responsive" href="/">Accueil <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item mr-3 ml-3">
-                <a href="/vous-etes-opticien" class="nav-link text-responsive">Vous êtes opticien ?</a>
-              </li>
-              <li class="nav-item mr-3 ml-3">
-                <a href="/espace-franchise" class="nav-link text-responsive">Espace franchise</a>
-              </li>
-              <li class="nav-item mr-3 ml-3 text-responsive">
-                <a href="/trouver-un-centre" class="nav-link">Trouver un centre</a>
-              </li>
-              <!--li class="nav-item mr-3 ml-3">
-                <a href="#" class="nav-link">Réjoignez nous</a>
-              </li-->
-            </ul>
-          </div>
-        </nav>
-      </header>
-
-      <section class="hero position-relative">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12 col-md-7 d-flex flex-column cta px-md-3 px-0 py-5">
-              <p class=" mb-md-5 font-weight-bold display-4"> <span class="font-weight-lighter">La solution pour allier </span><br>Optique et Audioprothese</p>
-              <div class="text-left mt-md-5 my-4">
-                <a href="#" class="text-decoration-none box-hover h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h btn-shadow">En savoir plus</a>
+      <section class="bg-img">
+        <header class="" style="background-color: #fffc;">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="/">
+              <img class="logo-short" src="/images/logo.png" alt="Logo" style="width: 120px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-column" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item mr-3 ml-3">
+                  <a class="nav-link text-responsive" href="/">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
+                  <a href="/vous-etes-opticien" class="nav-link text-responsive">Vous êtes opticien ?</a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
+                  <a href="/espace-franchise" class="nav-link text-responsive">Espace franchise</a>
+                </li>
+                <li class="nav-item mr-3 ml-3 text-responsive">
+                  <a href="/trouver-un-centre" class="nav-link">Trouver un centre</a>
+                </li>
+                <!--li class="nav-item mr-3 ml-3">
+                  <a href="#" class="nav-link">Réjoignez nous</a>
+                </li-->
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <div class="hero position-relative">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-7 d-flex flex-column cta px-md-3 px-0 py-5">
+                <p class=" mb-md-5 font-weight-bold display-4 avenirltstd-light"> <span class="font-weight-lighter">La solution pour allier </span><br>Optique et Audioprothese</p>
+                <div class="text-left mt-md-5 my-4">
+                  <a href="#" class="avenirltstd-light text-decoration-none box-hover h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h btn-shadow">En savoir plus</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 image">
+                <div class="telephone-image"></div>
               </div>
             </div>
-            <div class="col-12 col-md-5 image">
-              <div class="telephone-image"></div>
-            </div>
           </div>
-        </div>
-        <div class="wave d-md-block d-none">
-          <img src="/images/wave.svg" alt="">
-          <div class="spacer"></div>
+          <div class="wave d-md-block d-none">
+            <img src="/images/wave.svg" alt="">
+            <div class="spacer"></div>
+          </div>
         </div>
       </section>
 
       <section class="container-fluid">
-        <h2 class="text-uppercase text-title text-center pt-md-5 pb-4 mb-5">Comment ça marche ?</h2>
+        <h2 class="avenirltstd-light text-uppercase text-title text-center pt-md-5 pb-4 mb-5">Comment ça marche ?</h2>
         <div class="row p-3">
           <div class="col-md-2"></div>
           <div class="col-md-4">
             <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Installation de la cabine au frais de Jack Audio</p>
-            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Formation des opticiens et de l’audioprothésiste à la vente et l’accompagnement de la clientèle en Audioprothèse</p>
+            <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white bg">Formation des opticiens et de l’audioprothésiste</p>
             <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Gestion des dossiers de prise en charge</p>
           </div>
           <div class="col-md-4">
@@ -108,7 +110,7 @@
       <section class="container-fluid">
         <div class="row bg-hero pt-4 pb-5">
           <div class="col-md-12">
-            <h2 class="text-uppercase p-5 text-white text-center">Jack Audio partenariat avec les meilleurs marques</h2>
+            <h2 class="avenirltstd-light text-uppercase p-5 text-title text-center">JackAudio partenaire avec les meilleures marques </h2>
           </div>
         </div>
         <div class="row position-relative bottom">
@@ -160,68 +162,68 @@
 
       <hr class="w-25 mx-auto rounded-pill pre-border">
       <section class="container-fluid mb-md-4">
-        <h2 class="text-uppercase text-title text-center pt-md-5 pb-4 mb-5">ESPACE PHARMACIEN</h2>
+        <h2 class="avenirltstd-light text-uppercase text-title text-center pt-md-5 pb-4 mb-5"> Nos avantages ?</h2>
         <div class="row p-md-3">
           <div class="col-md-12">
-            <div class="d-md-flex">
-              <div class="p-2 w-100 shadow-sm box-hover border m-1">
-                <div class="">
-                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
-                    <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
-                    <h5 class="text-uppercase text-responsive">Synergie</h5>
-                    <p class="py-3 px-1 text-responsive text-left" style="margin-bottom: 31px;">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
-                  </div>
-                  <div class="text-center d-none">
-                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-                  </div>
+            <div class="card-deck">
+              <div class="card shadow-sm box-hover">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Synergie</h5>
+                  <p class="py-3 px-1 text-responsive text-left" style="margin-bottom: 31px;">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
                 </div>
               </div>
-              <div class="p-2 w-100 shadow-sm box-hover border m-1">
-                <div class="">
-                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
-                    <i class="fas fa-chart-line i-fas mb-4 bg-audio text-white"></i>
-                    <h5 class="text-uppercase text-responsive text-break">Augmentation <br> du chiffre d'affaire</h5>
-                    <p class="py-3 px-1 text-responsive text-left">Augmentation de l’attractivité de la boutique, une fidélisation des + de 60 ans, élargissement de la gamme de services</p>
-                  </div>
-                  <div class="text-center d-none">
-                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-                  </div>
+              <div class="card shadow-sm box-hover">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-chart-line i-fas mb-4 bg-audio text-white"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive text-break">Augmentation <br> du chiffre d'affaire</h5>
+                  <p class="py-3 px-1 text-responsive text-left">Augmentation de l’attractivité de la boutique, une fidélisation des + de 60 ans, élargissement de la gamme de services</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
                 </div>
               </div>
-              <div class="p-2 w-100 shadow-sm box-hover border m-1">
-                <div class="">
-                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
-                    <i class="fas fa-folder-plus i-fas mb-4 bg-audio text-white"></i>
-                    <h5 class="text-uppercase text-responsive">Gestion de la vente d'audio prothèses</h5>
-                    <p class="py-3 px-1 text-responsive text-left">Gestion complète et autonome de l’activité de la vente d’audioprotheses (normes, materiel, stock, gestion administrative)</p>
-                  </div>
-                  <div class="text-center d-none">
-                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-                  </div>
+              <div class="card shadow-sm box-hover">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-folder-plus i-fas mb-4 bg-audio text-white"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Gestion de la vente d'audio prothèses</h5>
+                  <p class="py-3 px-1 text-responsive text-left">Gestion complète et autonome de l’activité de la vente d’audioprotheses (normes, materiel, stock, gestion administrative)</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
                 </div>
               </div>
-              <div class="p-2 w-100 shadow-sm box-hover border m-1">
-                <div class="">
-                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
-                    <i class="fas fa-graduation-cap i-fas mb-4 bg-audio text-white"></i>
-                    <h5 class="text-uppercase text-responsive">Audioprothésiste diplômé</h5>
-                    <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
-                  </div>
-                  <div class="text-center d-none">
-                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-                  </div>
+              <div class="card shadow-sm box-hover">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-graduation-cap i-fas mb-4 bg-audio text-white"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Audioprothésiste diplômé</h5>
+                  <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
                 </div>
               </div>
-              <div class="p-2 w-100 shadow-sm box-hover border m-1">
-                <div class="">
-                  <div class="py-4 px-2 height-responsive text-center mb-4 rounded-lg h-phar">
-                    <i class="fab fa-battle-net i-fas mb-4 bg-audio text-white"></i>
-                    <h5 class="text-uppercase text-responsive">Un réseau qui vous accompagne chaque jour.</h5>
-                    <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
-                  </div>
-                  <div class="text-center d-none">
-                    <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-                  </div>
+              <div class="card shadow-sm box-hover">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fab fa-battle-net i-fas mb-4 bg-audio text-white"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Un réseau qui vous accompagne chaque jour.</h5>
+                  <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
                 </div>
               </div>
             </div>
@@ -298,7 +300,7 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
       </section-->
 
       <section class="container-fluid bg-light py-5 px-3">
-        <h2 class="text-uppercase p-5 text-title text-center">Contactez-nous</h2>
+        <h2 class="avenirltstd-light text-uppercase p-5 text-title text-center">Contactez-nous</h2>
         <div class="row">
           <div class="col-md-12 d-md-flex justify-content-center">
             <div class="p-3">
@@ -312,9 +314,9 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
               <p>Tel : 01 70 26 04 45</p>
             </div>
             <div class="p-3">
-              <p class="h6 font-weight-bold">Ménilmontant Optique</p>
-              <p>148 boulevard <br> de Ménilmontant 75020</p>
-              <p>Tel : 01 47 97 03 81</p>
+              <p class="h6 font-weight-bold">JackAudio</p>
+              <p>Email<br> contact@jackaudio.net</p>
+              <p>Tel : 06 63 16 41 34</p>
             </div>
             <div class="p-3">
               <p class="h6 font-weight-bold">Ménilmontant Optique</p>

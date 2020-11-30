@@ -1,19 +1,35 @@
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/font/AvenirLTStd-Light.woff2') format('woff2'),
+        url('/font/AvenirLTStd-Light.woff') format('woff'),
+        url('/font/AvenirLTStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif !important;
 }
-
+.avenirltstd-light {
+    font-family: 'Avenir LT Std'!important;
+    font-weight: 300;
+    font-style: normal;
+}
 /* This class is added on scroll */
 .fixed {
     position: fixed !important;
+    left: 0;
     top: 0;
     height: 70px;
     z-index: 1;
-    background-color: #f087b6 !important;
+    background-color: #fff !important;
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
-    color: #fff;
+    color: #3e393d;
 }
 
 .active {
@@ -24,7 +40,7 @@ body {
   color: #fff!important;
 }
 .fixed ul li a {
-    color: #fff !important;
+    color: #3e393d !important;
 }
 
 .fixed .show {
@@ -41,7 +57,7 @@ body {
 }
 
 .text-title {
-    color: #f287b6;
+    color: #3e393d;
 }
 
 .bottom {
@@ -66,14 +82,21 @@ body {
     overflow: hidden;
     margin-bottom: 25px;
 }*/
+.bg-img {
+  background-image: url('/images/slid2a.png');/*#f087b6*/
+  overflow: hidden;
+  margin-bottom: 25px;
+  background-size: cover;
+}
 .hero {
-    background: #f087b6;
+    /*background-image: url('/images/slid2.png');/*#f087b6*/
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
     overflow: hidden;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
+    background-size: cover;
 }
 
 .bg-hero {
@@ -94,6 +117,12 @@ body {
 
 .bg-audio {
     background-color: #f287b6;
+}
+.bg {
+  background-image: url('/images/vague.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
 }
 
 .pre-border {
@@ -137,7 +166,7 @@ body {
     .hero .telephone-image {
         width: 500px;
         height: 600px;
-        background: url('/images/slidejack.png') no-repeat center;
+        background: url('/images/slid.jpg') no-repeat center;
         background-position-x: center;
         background-size: contain;
         position: relative;
@@ -185,6 +214,9 @@ body {
 
     .text-responsive {
       font-size: calc(5% + 1vw + 1vh)!important;
+    }
+    .icone-responsive {
+      font-size: calc(100% + 1vw + 1vh)!important;
     }
 
     .height-responsive {
