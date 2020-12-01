@@ -17,6 +17,12 @@ body {
     font-weight: 300;
     font-style: normal;
 }
+@media (min-width: 576px){
+.card-deck .card {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+}
 /* This class is added on scroll */
 .fixed {
     position: fixed !important;
@@ -117,6 +123,10 @@ body {
 
 .bg-audio {
     background-color: #f287b6;
+}
+.icone-color {
+  color: #f287b6;
+  border: 2px solid #f287b6;
 }
 .bg {
   background-image: url('/images/vague.png');
