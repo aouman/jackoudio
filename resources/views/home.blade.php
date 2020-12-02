@@ -45,9 +45,9 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-12 col-md-7 d-flex flex-column cta px-md-3 px-0 py-5">
-                <p class=" mb-md-5 font-weight-bold display-4 avenirltstd-light"> <span class="font-weight-lighter">La solution pour allier </span><br>Optique et Audioprothese</p>
+                <p class=" mb-md-5 font-weight-bold display-4 avenirltstd-light"> <span class="font-weight-lighter"></span>Le corner Audioprothèse des Opticiens </p>
                 <div class="text-left mt-md-5 my-4">
-                  <a href="#" class="avenirltstd-light text-decoration-none box-hover h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h btn-shadow">En savoir plus</a>
+                  <a href="#" class="avenirltstd-light text-decoration-none box-hover h-auto rounded-pill py-3 px-5 mt-3 mb-5 text-white btn-h btn-shadow">Nous contacter</a>
                 </div>
               </div>
               <div class="col-12 col-md-5 image">
@@ -63,7 +63,7 @@
       </section>
 
       <section class="container-fluid">
-        <h2 class="avenirltstd-light text-uppercase text-title text-center pt-md-5 pb-4 mb-5">Comment ça marche ?</h2>
+        <!--h2 class="avenirltstd-light text-uppercase text-title text-center pt-md-5 pb-4 mb-5">Comment ça marche ?</h2>
         <div class="row p-3">
           <div class="col-md-2"></div>
           <div class="col-md-4">
@@ -77,33 +77,95 @@
             <p class="h6 shadow-sm p-4 box-hover rounded-lg mb-4 bg-audio border text-white">Rétrocéssion du Chiffre d’Affaire généré.</p>
           </div>
           <div class="col-md-2"></div>
-        </div>
-        <!--div class="row">
-          <div class="col-md-4">
-            <div class="shadow-sm p-4 text-center mb-4 border rounded-lg boder box-hover">
-              <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
-              <h5 class="text-uppercase text-responsive">Synergie</h5>
-              <p class="py-3">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
-              <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="shadow-sm p-4 text-center mb-4 border rounded-lg box-hover">
-              <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
-              <h5 class="text-uppercase text-responsive">Synergie</h5>
-              <p class="py-3">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
-              <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="shadow-sm p-4 text-center mb-4 border rounded-lg box-hover">
-              <i class="fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
-              <h5 class="text-uppercase text-responsive">Synergie</h5>
-              <p class="py-3">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
-              <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3">En savoir plus</a>
-            </div>
-          </div>
         </div-->
+      </section>
+
+      <section class="container-fluid mb-md-4">
+        <h2 class="avenirltstd-light text-uppercase text-title text-center pt-md-5 pb-4 mb-5"> Nos avantages ?</h2>
+        <div class="row p-md-3">
+          <div class="col-md-12">
+            <div class="card-deck">
+              <div class="card border-0 text-center">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-sync-alt i-fas mb-4 icone-color"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Synergie</h5>
+                  <p class="py-3 px-1 text-responsive " style="margin-bottom: 31px;">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
+                </div>
+              </div>
+              <div class="card border-0 text-center">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-chart-line i-fas mb-4 icone-color"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive text-break">Augmentation <br> du chiffre d'affaire</h5>
+                  <p class="py-3 px-1 text-responsive ">Augmentation de l’attractivité de la boutique, une fidélisation des + de 60 ans, élargissement de la gamme de services</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
+                </div>
+              </div>
+              <div class="card border-0 text-center">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-folder-plus i-fas mb-4 icone-color"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Gestion de la vente d'audio prothèses</h5>
+                  <p class="py-3 px-1 text-responsive ">Gestion complète et autonome de l’activité de la vente d’audioprotheses (normes, materiel, stock, gestion administrative)</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
+                </div>
+              </div>
+              <div class="card border-0 text-center">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fas fa-graduation-cap i-fas mb-4 icone-color"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Audioprothésiste diplômé</h5>
+                  <p class="py-3 px-1 text-responsive ">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
+                </div>
+              </div>
+              <div class="card border-0 text-center">
+                <div class="text-center p-3">
+                  <i class="icone-responsive fab fa-battle-net i-fas mb-4 icone-color"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="text-uppercase text-responsive">Un réseau qui vous accompagne chaque jour.</h5>
+                  <p class="py-3 px-1 text-responsive ">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
+                </div>
+                <div class="card-footer bg-white text-center border-0 d-none">
+                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid py-5">
+        <h2 class="avenirltstd-light text-uppercase text-title text-center pt-md-5 pb-4 mb-5">Un avantage concurrentiel certain</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="p-4">
+              <img src="/images/avantage.webp" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-4 height-responsive">
+              <p class="text-responsive py-md-5">Proposez la double compétence: Celle d’opticien, et celle d’audioprothésiste. Les clients apprécieront la diversité et la praticité. Sachant que la vue et l’ouïe sont deux sens principaux, regrouper ces deux compétences au sein d’une même entité
+représente réellement un plus. Non seulement en terme de satisfaction clients, mais également en terme de concurrence.
+En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de même avec les prothèses auditives?</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <hr class="w-25 mx-auto rounded-pill pre-border mb-md-5 d-none">
@@ -160,99 +222,9 @@
         </div>
       </section>
 
-      <hr class="w-25 mx-auto rounded-pill pre-border">
-      <section class="container-fluid mb-md-4">
-        <h2 class="avenirltstd-light text-uppercase text-title text-center pt-md-5 pb-4 mb-5"> Nos avantages ?</h2>
-        <div class="row p-md-3">
-          <div class="col-md-12">
-            <div class="card-deck">
-              <div class="card shadow-sm box-hover">
-                <div class="text-center p-3">
-                  <i class="icone-responsive fas fa-sync-alt i-fas mb-4 bg-audio text-white"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="text-uppercase text-responsive">Synergie</h5>
-                  <p class="py-3 px-1 text-responsive text-left" style="margin-bottom: 31px;">Jack Audio partenariat avec les meilleurs marques Siemens et Starkey, les leaders</p>
-                </div>
-                <div class="card-footer bg-white text-center border-0 d-none">
-                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
-                </div>
-              </div>
-              <div class="card shadow-sm box-hover">
-                <div class="text-center p-3">
-                  <i class="icone-responsive fas fa-chart-line i-fas mb-4 bg-audio text-white"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="text-uppercase text-responsive text-break">Augmentation <br> du chiffre d'affaire</h5>
-                  <p class="py-3 px-1 text-responsive text-left">Augmentation de l’attractivité de la boutique, une fidélisation des + de 60 ans, élargissement de la gamme de services</p>
-                </div>
-                <div class="card-footer bg-white text-center border-0 d-none">
-                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
-                </div>
-              </div>
-              <div class="card shadow-sm box-hover">
-                <div class="text-center p-3">
-                  <i class="icone-responsive fas fa-folder-plus i-fas mb-4 bg-audio text-white"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="text-uppercase text-responsive">Gestion de la vente d'audio prothèses</h5>
-                  <p class="py-3 px-1 text-responsive text-left">Gestion complète et autonome de l’activité de la vente d’audioprotheses (normes, materiel, stock, gestion administrative)</p>
-                </div>
-                <div class="card-footer bg-white text-center border-0 d-none">
-                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
-                </div>
-              </div>
-              <div class="card shadow-sm box-hover">
-                <div class="text-center p-3">
-                  <i class="icone-responsive fas fa-graduation-cap i-fas mb-4 bg-audio text-white"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="text-uppercase text-responsive">Audioprothésiste diplômé</h5>
-                  <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
-                </div>
-                <div class="card-footer bg-white text-center border-0 d-none">
-                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
-                </div>
-              </div>
-              <div class="card shadow-sm box-hover">
-                <div class="text-center p-3">
-                  <i class="icone-responsive fab fa-battle-net i-fas mb-4 bg-audio text-white"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="text-uppercase text-responsive">Un réseau qui vous accompagne chaque jour.</h5>
-                  <p class="py-3 px-1 text-responsive text-left">Présence chez l’opticien d’un audioprothesiste diplomé à disposition ainsi que d’un personnel qualifié</p>
-                </div>
-                <div class="card-footer bg-white text-center border-0 d-none">
-                  <a href="#" class="py-2 px-3 rounded-pill bg-audio text-white mt-3 text-decoration-none">En savoir plus</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <!--hr class="w-25 mx-auto rounded-pill pre-border">
 
-      <!--section class="container-fluid py-5">
-        <h2 class="text-uppercase p-5 text-title text-center">Un avantage concurrentiel certain</h2>
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-
-                <img src="/images/Wireless-2-1024x1024.png" alt="" class="" width="300">
-          </div>
-          <div class="col-md-5">
-            <div class="shadow-sm p-4 height-responsive">
-              <p class="text-responsive">Proposez la double compétence: Celle d’opticien, et celle d’audioprothésiste. Les clients apprécieront la diversité et la praticité. Sachant que la vue et l’ouïe sont deux sens principaux, regrouper ces deux compétences au sein d’une même entité
-représente réellement un plus. Non seulement en terme de satisfaction clients, mais également en terme de concurrence.
-En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de même avec les prothèses auditives?</p>
-            </div>
-          </div>
-          <div class="col-md-1">
-            <div class="shadow"></div>
-          </div>
-        </div>
-      </section-->
-
-      <!--section class="container-fluid"ededed>
+      <section class="container-fluid"ededed>
         <div class="row bg-audio pt-4 pb-5">
           <div class="col-md-12">
             <h2 class="text-uppercase p-5 text-white text-center">Un concept innovant</h2>
@@ -331,7 +303,41 @@ En tant qu’opticien vous proposez du sur-mesure. Pourquoi ne pas faire de mêm
           </div>
         </div>
       </section>
-
+      <section class="container-fluid">
+        <div class="row bg-dark p-4">
+          <div class="col-md-2 d-md-block d-none"></div>
+          <div class="bg-white border col-12 col-md-8 p-4 rounded-lg shadow-sm">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Nom</label>
+                  <input type="text" class="form-control" id="inputText">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputText4">Prenoms</label>
+                  <input type="text" class="form-control" id="inputText4">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Votre message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Envoyer <span><i class="fas fa-paper-plane"></i></span> </button>
+            </form>
+          </div>
+          <div class="col-md-2 d-md-block d-none"></div>
+        </div>
+      </section>
       <section class="container-fluid">
         <footer class="row bg-dark">
           <div class="col-md-12">
