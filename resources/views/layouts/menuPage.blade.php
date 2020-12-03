@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/client.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   </head>
   <body>
     <div class="main-content">
-      <section class="bg-img">
-        <header class="" style="background-color: #fffc;">
+      <section class="">
+        <header class="w-100 position-absolute" style="background-color: #fffc;top: 0; z-index: 500;">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/">
               <img class="logo-short" src="/images/logo.png" alt="Logo" style="width: 120px;">
