@@ -1,23 +1,37 @@
 body {
     font-family: 'Montserrat', sans-serif !important;
 }
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/font/AvenirLTStd-Light.woff2') format('woff2'),
+        url('/font/AvenirLTStd-Light.woff') format('woff'),
+        url('/font/AvenirLTStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
+.avenirltstd-light {
+    font-family: 'Avenir LT Std'!important;
+    font-weight: 300;
+    font-style: normal;
+}
 /* This class is added on scroll */
 .fixed {
     position: fixed !important;
     top: 0;
     height: 70px;
     z-index: 1;
-    background-color: #f087b6 !important;
+    background-color: #fff !important;
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
-    color: #fff;
+    color: #3e393d;
 }
 
 .fixed ul li a {
-    color: #fff !important;
+    color: #3e393d !important;
 }
 
 .fixed .show {
@@ -57,6 +71,11 @@ body {
     height: 200px;
 }
 
+.icone-color {
+  color: #f287b6;
+  border: 2px solid #f287b6;
+}
+
 /*.hero {
     position: relative;
     background: #bee8f5;
@@ -68,13 +87,34 @@ body {
     margin-bottom: 25px;
 }*/
 .hero {
-    background: #f087b6;
+    /*background: #f087b6;*/
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
     overflow: hidden;
     margin-bottom: 25px;
+}
+
+.bg-img-optique {
+  background-image: url('/images/slid2b.png');/*#f087b6*/
+  overflow: hidden;
+  margin-bottom: 25px;
+  background-size: cover;
+}
+
+.bg-img-franchise {
+  background-image: url('/images/slid2c.png');/*#f087b6*/
+  overflow: hidden;
+  margin-bottom: 25px;
+  background-size: cover;
+}
+
+.bg-img-centre {
+  background-image: url('/images/slid2c.png');/*#f087b6*/
+  overflow: hidden;
+  margin-bottom: 25px;
+  background-size: cover;
 }
 
 .btn-h {
@@ -139,7 +179,7 @@ body {
     .hero .telephone-image {
         width: 370px;
         height: 600px;
-        background: url('/images/image-slide_1.png') no-repeat center;
+        /*background: url('/images/image-slide_1.png') no-repeat center;*/
         background-position-x: center;
     }
 
