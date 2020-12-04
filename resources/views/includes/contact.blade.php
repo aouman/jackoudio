@@ -3,30 +3,31 @@
   <div class="row p-4">
     <div class="col-md-2 d-md-block d-none"></div>
     <div class="bg-dark border col-12 col-md-8 p-4 rounded-lg shadow text-white">
-      <form>
+      <form action="/sendMail" method="post" enctype="multipart/form-data">
+          @csrf
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Nom</label>
-            <input type="text" class="form-control" id="inputText">
+            <input type="text" class="form-control" id="inputText" name="last_name">
           </div>
           <div class="form-group col-md-6">
             <label for="inputText4">Prenoms</label>
-            <input type="text" class="form-control" id="inputText4">
+            <input type="text" class="form-control" id="inputText4" name="first_name">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <input type="email" class="form-control" id="inputEmail4" name="email">
           </div>
           <div class="form-group col-md-6">
             <label for="inputAddress">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="address">
           </div>
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Votre message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
         </div>
         <div class="form-group col-md-12 text-center">
           <button type="submit" class="btn box-hover h-auto rounded-pill py-3 px-5 text-white btn-h btn-shadow text-center">Envoyer <span><i class="fas fa-paper-plane"></i></span> </button>
