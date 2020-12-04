@@ -23,7 +23,7 @@ class InfoController extends Controller
 
     //Mail::to('yaodavidarmel@gmail.com')->send(new \App\Mail\MyMail($details));
     Mail::send('emails.myMail', ['details' => $details], function($message) use($details){
-      $message->to('yaodavidarmel@gmail.com', 'Cher(ère) Admin')->subject('Vous avez un nouveau message');
+      $message->to('contact@jackaudio.net', 'Cher(ère) Admin')->subject('Vous avez un nouveau message');
       $message->from('eventsoschool@gmail.com', 'JackAudio');
     });
 
