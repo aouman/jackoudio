@@ -25,3 +25,5 @@ Route::get('/espace-franchise', function () {
 Route::get('/trouver-un-centre', function () {
     return view('centre');
 });
+
+Route::post('/sendMail', 'App\Http\Controllers\InfoController@sendMail');
