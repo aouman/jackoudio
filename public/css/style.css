@@ -29,7 +29,7 @@ body {
     left: 0;
     top: 0;
     height: 70px;
-    z-index: 1;
+    z-index: 1000;
     background-color: #fff !important;
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     padding-top: 10px;
